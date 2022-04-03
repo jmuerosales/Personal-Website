@@ -1,0 +1,105 @@
+/*Navigation Bar- ALL PAGES*/ 
+.topnav
+{
+	background-color:#000000;
+	overflow: hidden;
+}
+
+.topnav a
+{
+	color: #C1C6CA;
+	float: left;
+  font-family: Verdana, sans-serif;
+	font-size: 25px;
+  text-decoration: none;
+	padding: 10px;
+}
+
+.topnav a.active
+{
+	color: #B1AEB0;
+	background-color: #353434;
+}
+
+/*Relationships*/
+
+/*FONTS*/
+h1 {
+	color:#B1AEB0;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+	color:#B1AEB0;
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+h3 {
+	color:#B1AEB0;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+ul,li {
+	color:#B1AEB0;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: left;
+}
+
+/*Pictures*/
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:550;
+}
+.picturepao {
+	width: 400;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.picturefam4 {
+width: 650;
+height: 400;
+margin-top: 50;
+margin-left: 55;
+}
+
+.picturefam41 {
+width:650;
+height: 400;
+margin-top: 50;
+margin-left: 55;
+}
+
+.picturefriends{
+	width:700;
+	height: 350;
+	margin-left: 400;
+}
+
+/*Grid*/
+.gridTOP	{
+	display:grid;
+	grid-template-columns:30% 70%;
+	margin-top: 10;
+	margin-bottom: 20;
+	}
+
+.title {
+	color:#B1AEB0 ;
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: left;
+	}

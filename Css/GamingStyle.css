@@ -1,0 +1,73 @@
+/*Navigation Bar- ALL PAGES*/ 
+.topnav
+{
+	background-color:#000000;
+	overflow: hidden;
+}
+
+.topnav a
+{
+	color: #C1C6CA;
+	float: left;
+  font-family: Verdana, sans-serif;
+	font-size: 25px;
+  text-decoration: none;
+	padding: 10px;
+}
+
+.topnav a.active
+{
+	color: #B1AEB0;
+	background-color: #353434;
+}
+
+/*Gaming Style*/
+
+
+
+/*Pictures*/
+
+.pictureconsole {
+	width: 275px;
+	height: 300px;
+	margin-top: 60px;
+	margin-left: 5px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:550;
+}
+/*Fonts*/
+
+.title {
+	color:#B1AEB0 ;
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	}
+
+h1	{
+	color:#B1AEB0 ;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: left;
+	margin-left: 50px;
+	}
+
+h2	{
+	color:#B1AEB0 ;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	}
+
+/*Grid*/
+.gridTOP	{
+	display:grid;
+	grid-template-columns:40% 60%;
+	margin-top: 10;
+	margin-bottom: 20;
+}

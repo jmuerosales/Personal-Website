@@ -1,0 +1,31 @@
+/*Navigation Bar- ALL PAGES*/ 
+.topnav
+{
+	background-color:#000000;
+	overflow: hidden;
+}
+
+.topnav a
+{
+	color: #C1C6CA;
+	float: left;
+  font-family: Verdana, sans-serif;
+	font-size: 25px;
+  text-decoration: none;
+	padding: 10px;
+}
+
+.topnav a.active
+{
+	color: #B1AEB0;
+	background-color: #353434;
+}
+
+/* Home Style */
+.Homefont
+{
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	float: left;
+	margin-left: 20px;
+}
